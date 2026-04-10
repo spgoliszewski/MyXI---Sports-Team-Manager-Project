@@ -58,8 +58,6 @@ The project is built with React + TypeScript and uses browser-side `localStorage
 
 
 
-# MyXI — Menedżer Drużyny Piłkarskiej
-
 ## 🇵🇱 Opis projektu
 
 MyXI to aplikacja webowa do zarządzania drużyną piłkarską. Umożliwia prowadzenie kadry, terminarza meczów, statystyk zawodników oraz podstawowych ustawień zespołu.
