@@ -1,3 +1,63 @@
+## 🇺🇸 Project overview
+
+MyXI is a web application for managing a soccer team. It helps you manage the squad, match schedule, player statistics, and core team settings.
+
+The project is built with React + TypeScript and uses browser-side `localStorage` for data persistence.
+
+## Key features
+
+- Manager login and protected routes for authenticated views.
+- Dashboard with team summary (top players, match record, upcoming match).
+- Player management: list, player profile, and editing player data/statistics.
+- Match calendar/schedule and match result handling.
+- Ranking pages: top scorers, top assisters, most minutes, least minutes.
+- Team settings and quick sample data population.
+
+## Tech stack
+
+- React
+- TypeScript
+- React Router
+- Tailwind CSS
+- `sonner` (toast notifications)
+- `localStorage` (data persistence)
+
+## Folder structure
+
+- `components/` — UI components, layout, and feature components (dialogs, forms).
+- `pages/` — main application views.
+- `lib/` — helper logic, data seeding, and storage operations.
+- `types/` — TypeScript type definitions.
+- `constants/` — app constants (e.g., player positions).
+
+## Getting started
+
+1. Go to the project root directory (where `package.json` is located).
+2. Install dependencies:
+
+	```bash
+	npm install
+	```
+
+3. Start the app in development mode:
+
+	```bash
+	npm run dev
+	```
+
+## Notes
+
+- Data is stored locally in the browser.
+- A helper function is exposed in the browser console to populate realistic sample data.
+
+
+
+
+
+
+
+
+
 # MyXI — Menedżer Drużyny Piłkarskiej
 
 ## 🇵🇱 Opis projektu
@@ -55,55 +115,3 @@ Projekt został zbudowany w oparciu o React + TypeScript i wykorzystuje `localSt
 ---
 
 # MyXI — Soccer Team Manager
-
-## 🇺🇸 Project overview
-
-MyXI is a web application for managing a soccer team. It helps you manage the squad, match schedule, player statistics, and core team settings.
-
-The project is built with React + TypeScript and uses browser-side `localStorage` for data persistence.
-
-## Key features
-
-- Manager login and protected routes for authenticated views.
-- Dashboard with team summary (top players, match record, upcoming match).
-- Player management: list, player profile, and editing player data/statistics.
-- Match calendar/schedule and match result handling.
-- Ranking pages: top scorers, top assisters, most minutes, least minutes.
-- Team settings and quick sample data population.
-
-## Tech stack
-
-- React
-- TypeScript
-- React Router
-- Tailwind CSS
-- `sonner` (toast notifications)
-- `localStorage` (data persistence)
-
-## Folder structure
-
-- `components/` — UI components, layout, and feature components (dialogs, forms).
-- `pages/` — main application views.
-- `lib/` — helper logic, data seeding, and storage operations.
-- `types/` — TypeScript type definitions.
-- `constants/` — app constants (e.g., player positions).
-
-## Getting started
-
-1. Go to the project root directory (where `package.json` is located).
-2. Install dependencies:
-
-	```bash
-	npm install
-	```
-
-3. Start the app in development mode:
-
-	```bash
-	npm run dev
-	```
-
-## Notes
-
-- Data is stored locally in the browser.
-- A helper function is exposed in the browser console to populate realistic sample data.
